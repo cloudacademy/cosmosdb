@@ -4,9 +4,9 @@
 let "randomIdentifier=$RANDOM*$RANDOM"
 location="East US"
 failoverLocation="South Central US"
-resourceGroup="msdocs-cosmosdb-rg-$randomIdentifier"
-account="msdocs-account-cosmos-$randomIdentifier" #needs to be lower case
-database="msdocs-db-sql-cosmos"
+resourceGroup="cosmosdb-rg-$randomIdentifier"
+account="cosmos-$randomIdentifier" #needs to be lower case
+database="db1"
 container="container1"
 partitionKey="/zipcode"
 maxThroughput=1000
