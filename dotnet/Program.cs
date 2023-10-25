@@ -28,7 +28,6 @@ public class Program
     {
         try
         {
-            Console.WriteLine("Program started\n");
             Program p = new Program();
             await p.CosmosAsync();
 
@@ -41,10 +40,6 @@ public class Program
         catch (Exception e)
         {
             Console.WriteLine("Error: {0}", e);
-        }
-        finally
-        {
-            Console.WriteLine("Program ended");
         }
     }
 
